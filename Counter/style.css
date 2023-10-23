@@ -1,0 +1,80 @@
+#outerdiv {
+	width: 80%;
+	height: 300px;
+	margin: 40px;
+	margin-left: 170px;
+	font-weight: 800;
+
+	background-color: aquamarine;
+}
+#input{
+	background-color: rgb(246, 242, 242);
+	position: relative;
+	width: 40%;
+	height: 30px;
+	top: 70px;
+	left: 10%;
+	font-weight: 800;
+
+}
+#text{
+	font-size: 40px;
+	letter-spacing: 4px;
+	text-align: center;
+	line-height: 90px;
+	font-weight: 800;
+
+	
+}
+button{
+	position: relative;
+	width: 20%;
+	height: 30px;
+	top: 39px;
+	left: 60%;
+	border: 2px solid black;
+	font-weight: 800;
+
+}
+#counter{
+	background-color: rgb(65, 64, 64);
+	position: relative;
+	width: 40%;
+	left: 30%;
+	height: 200px;
+}
+
+#mainc{
+	width: 100px;
+	height: 100px;
+	background-color: rgb(244, 240, 240);
+	position: relative;
+	left: 40%;
+	top: 10%;
+	overflow: hidden;
+	margin: 100px;
+}
+
+#mainc p{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 45px;
+	font-weight: 800;
+	background-color: rgb(249, 245, 245);
+	border-top: 2px solid black;
+	margin: 0px;
+	font-size: 60px;
+ 
+}
+p.next{
+	top: 100px;
+	position: absolute;
+}
+p.animate{
+	transition: 0.5s;
+	top: 0px;
+	
+}
+
+	
