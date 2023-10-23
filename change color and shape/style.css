@@ -1,0 +1,37 @@
+
+#container{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+	height: 1000px;
+}
+#outerbox{
+	position: relative;
+	display: flex;
+	align-items: center;
+	top: 30%;
+	height: 200px;
+	width: 200px;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgb(163, 82, 238);
+	border-radius: 50%;
+}
+#innerbox{	
+	position: relative;
+	height: 120px;
+	width: 120px;
+	background-color: rgb(249, 242, 242);
+	left: 19%;
+}
+#colorbtn , #shapebtn{
+	position: relative;
+	top: 35%;
+	margin: 20px;
+	width: 12%;
+	height: 4%;
+	
+
+}
